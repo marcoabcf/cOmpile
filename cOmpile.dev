@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=7
+UnitCount=5
 
 [VersionInfo]
 Major=1
@@ -60,18 +60,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit2]
-FileName=structs\structs.c
-CompileCpp=1
-Folder=structs
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit3]
-FileName=structs\structs.h
+FileName=structs\validation.h
 CompileCpp=1
 Folder=structs
 Compile=1
@@ -81,9 +71,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=structs\Validation.c
+FileName=main.c
 CompileCpp=1
-Folder=structs
+Folder=
 Compile=1
 Link=1
 Priority=1000
@@ -91,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=structs\validation.h
+FileName=structs\line.h
 CompileCpp=1
 Folder=structs
 Compile=1
@@ -112,6 +102,16 @@ BuildCmd=
 
 [Unit7]
 FileName=structs\line.h
+CompileCpp=1
+Folder=structs
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=structs\Validation.c
 CompileCpp=1
 Folder=structs
 Compile=1
