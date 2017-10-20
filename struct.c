@@ -7,7 +7,7 @@
 void free_struct(obj)
 {
     free(obj);
-    puts("\n\nStruct successfuly freed!\nBye");
+    printf(" ---- Struct successfuly freed!");
 }
  
 //prints 

@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include "line.h"
+#include "struct.h"
 #include "validation.h"
 
 void checkfile(FILE *arq) {
@@ -26,6 +27,8 @@ void loadlines(FILE *arq) {
 		result = fgets(Linha, 100, arq);
 		line->number_line = i;
 		strcpy(line->texto, Linha);
+		
+		lineEnd = line;
 
 		if (result) {
 			utilLine* next = UtilLine();
@@ -40,16 +43,20 @@ void loadlines(FILE *arq) {
 			}
 
 			line = next; 
-		} else {
-			lineEnd = line;
 		}
 
 		i++;
 	}
 
+	printf("\n\n-----------------------------------------------------------------------------\n");
 	printf("\nPrimeira Linha: %s", lineFirst->texto);
 	printf("\nUltima Linha: %s", lineEnd->texto);
 	printf("\n\n%d bytes", usingBytes);
+	printf("\n\n-----------------------------------------------------------------------------\n");
+	
+	free_struct(lineEnd);
+	free_struct(lineFirst);
+	free_struct(line);
 }
  
 utilFile* UtilFile()
