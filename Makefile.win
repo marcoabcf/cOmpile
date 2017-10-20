@@ -1,17 +1,17 @@
-# Project: cOmpile
+# Project: Projeto2
 # Makefile created by Dev-C++ 5.11
 
-CPP      = g++.exe
-CC       = gcc.exe
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = structs/structs.o structs/validation.o main.o structs/line.o
-LINKOBJ  = structs/structs.o structs/validation.o main.o structs/line.o
-LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+OBJ      = line.o main.o validation.o struct.o
+LINKOBJ  = line.o main.o validation.o struct.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32 -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
 BIN      = cOmpile.exe
-CXXFLAGS = $(CXXINCS) 
-CFLAGS   = $(INCS) 
+CXXFLAGS = $(CXXINCS) -m32 -g3
+CFLAGS   = $(INCS) -m32 -g3
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -22,16 +22,16 @@ clean: clean-custom
 	${RM} $(OBJ) $(BIN)
 
 $(BIN): $(OBJ)
-	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-structs/structs.o: structs/structs.c
-	$(CPP) -c structs/structs.c -o structs/structs.o $(CXXFLAGS)
-
-structs/validation.o: structs/validation.c
-	$(CPP) -c structs/validation.c -o structs/validation.o $(CXXFLAGS)
+line.o: line.c
+	$(CC) -c line.c -o line.o $(CFLAGS)
 
 main.o: main.c
-	$(CPP) -c main.c -o main.o $(CXXFLAGS)
+	$(CC) -c main.c -o main.o $(CFLAGS)
 
-structs/line.o: structs/line.c
-	$(CPP) -c structs/line.c -o structs/line.o $(CXXFLAGS)
+validation.o: validation.c
+	$(CC) -c validation.c -o validation.o $(CFLAGS)
+
+struct.o: struct.c
+	$(CC) -c struct.c -o struct.o $(CFLAGS)

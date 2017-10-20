@@ -1,3 +1,3567 @@
-ak jsdg 
-hkasg
-das dj
+programa;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+
+if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			usingBytes += sizeof(line);
+
+			printf("Linha %d : %s", line->number_line, line->texto);
+		}
+
+		i++;
+fim;
