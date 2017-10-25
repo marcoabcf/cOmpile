@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000001000000
-UnitCount=11
+UnitCount=13
 
 [VersionInfo]
 Major=1
@@ -141,7 +141,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit10]
-FileName=lexicalanalyzer.c
+FileName=analyzer.c
 CompileCpp=0
 Folder=structs
 Compile=1
@@ -151,7 +151,27 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit11]
-FileName=lexicalanalyzer.h
+FileName=analyzer.h
+CompileCpp=0
+Folder=structs
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=errors.c
+CompileCpp=0
+Folder=structs
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit13]
+FileName=errors.h
 CompileCpp=0
 Folder=structs
 Compile=1

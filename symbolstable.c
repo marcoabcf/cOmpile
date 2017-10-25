@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 
 #include "struct.h"
 #include "symbolstable.h"
 
-static char palavrasReservadas[][9] = {
+static char palavrasReservadas[TOTAL_RESERVADAS][10] = {
 	"se", 
 	"fim", 
 	"real", 
@@ -21,8 +22,33 @@ static char palavrasReservadas[][9] = {
 /**
  * Return Symbols Table.
  */
-char * getWordsReserved() {
-	return &(palavrasReservadas);
+bool isWordReserved(char *word) {
+	int i;
+	bool isWordReserved = false;
+
+	for(i = 0; i < TOTAL_RESERVADAS; i++) {
+
+		if (strcasecmp(word, palavrasReservadas[i]) == 0) {
+			isWordReserved = true;
+			break;
+		}
+	}
+	
+	return isWordReserved;
+}
+
+/**
+ * Check if if variable.
+ */
+bool isVariable(char *word) {
+	return ((int) word[0] == 35);
+}
+
+/**
+ * Check if variable is valid.
+ */
+bool isVariableValid(char *word) {
+	return ! ((int) word[1] >= 48 && (int) word[1] <= 57);
 }
 
 /**
@@ -32,6 +58,8 @@ symbolsTable* SymbolsTable()
 {
     symbolsTable* new = (symbolsTable*)malloc(sizeof(symbolsTable));
 
-    new->getWordsReserved = getWordsReserved;
+    new->isVariable = isVariable;
+    new->isWordReserved = isWordReserved;
+    new->isVariableValid = isVariableValid;
     return new;
 }

@@ -1,49 +1,67 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <limits.h>
 
 #include "struct.h"
 #include "analyzer.h"
 #include "utilline.h"
 #include "symbolstable.h"
 
-void checkFirstLine(struct UtilLine *line) {
-	int i;
-	int sizeWord = strlen(line->texto);
-//	printf("\nLinha %d : %s\n", line->number_line, line->texto);
-
-	if (line->texto[0] == 'p') {
-		if (line->texto[1] == 'r') {
-			if (line->texto[2] == 'o') {
-				if (line->texto[3] == 'g') {
-					if (line->texto[4] == 'r') {
-						if (line->texto[5] == 'a') {
-							if (line->texto[6] == 'm') {
-								if (line->texto[7] == 'a') {
-									
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
 /**
  * Return new instance by Lexical Analizer.
  */
 void execute(struct UtilLine *line) {
-	checkFirstLine(line);
+	bool isVariable;
+	int i, codeCharacter, j = 0;
+	char character, word[UCHAR_MAX];
+	
+	symbolsTable* symbolsTable = SymbolsTable();
 
-//	for(i = 0; i < strlen(line->texto); i++) {
-//		character = line->texto[i];
-//		if (! isspace(character)) {
-//				printf("Caracter: %c - %d\n", character, character);
-//			}
-//		}
-//	}
+	limparVetorAuxiliar(word);
+
+	for(i = 0; i < strlen(line->texto); i++) {
+		character = line->texto[i];
+		codeCharacter = (int) character;
+		
+		if (codeCharacter != 9) {
+			if ((codeCharacter != 59)) {
+				if ((codeCharacter != 10) && (codeCharacter != 32) && (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)) {
+	 				word[j] = character;
+					j++;
+				} else {
+					isVariable = symbolsTable->isVariable(word);
+
+					if (isVariable && ! symbolsTable->isVariableValid(word)) {
+						printf("Erro na linha %i: ", line->number_line);
+						puts(word);
+						printf("Declaração de Variável \n");
+						exit(1);
+					}
+
+					if (! isVariable && ! symbolsTable->isWordReserved(word)) {
+						printf("Erro na linha %i: ", line->number_line);
+						puts(word);
+						printf("Palavra indefinida \n");
+						exit(1);
+					}
+
+					printf("\n");
+
+					limparVetorAuxiliar(word);
+				}
+			}
+//			printf("Caracter: %c - %d\n", character, character);
+		}
+	}
+}
+
+void limparVetorAuxiliar(char array[]) {
+	int i;
+
+	for(i = 0; i < UCHAR_MAX; i++) {
+		array[i] = '\0';
+	}
 }
 
 /**
