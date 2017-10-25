@@ -2,15 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "line.h"
 #include "struct.h"
-#include "validation.h"
+#include "utilline.h"
+#include "utilfile.h"
+#include "analyzer.h"
 
 void checkfile(FILE *arq) {
 
 	if (arq == NULL) {
 		printf("Problemas na abertura do arquivo\n");
-		return;
+		exit(1);
 	}
 }
 
@@ -21,21 +22,24 @@ void loadlines(FILE *arq) {
 	utilLine* lineEnd;
 	utilLine* lineFirst;
 	utilLine* line = UtilLine();
-	int usingBytes = sizeof(utilFile);
+	analizer* analizer = Analizer();
+
+	int usingBytes = sizeof(analizer) + sizeof(line) + sizeof(Linha);
 
 	while (! feof(arq)) {
 		result = fgets(Linha, 100, arq);
-		line->number_line = i;
-		strcpy(line->texto, Linha);
-		
-		lineEnd = line;
 
 		if (result) {
+			line->number_line = i;
+			strcpy(line->texto, Linha);
+			
+			analizer->execute(line);
+	
 			utilLine* next = UtilLine();
 			line->next = next;
 			next->previous = line;
-			printf("\nLinha %d : %s", line->number_line, line->texto);
-			
+			lineEnd = line;
+						
 			usingBytes += (sizeof(line) + sizeof(next));
 			
 			if (i == 1) {
@@ -57,6 +61,8 @@ void loadlines(FILE *arq) {
 	free_struct(lineEnd);
 	free_struct(lineFirst);
 	free_struct(line);
+	
+	fclose(arq);
 }
  
 utilFile* UtilFile()
