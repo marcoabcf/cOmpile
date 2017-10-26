@@ -1,3 +1,7 @@
 programa;
 #teste;
+
+if(#76se) {
+}
+
 fim;

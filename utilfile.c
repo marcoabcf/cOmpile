@@ -30,22 +30,21 @@ void loadlines(FILE *arq) {
 		result = fgets(Linha, 100, arq);
 
 		if (result) {
+			utilLine* next = UtilLine();
+			
+			line->next = next;
+			next->previous = line;
 			line->number_line = i;
 			strcpy(line->texto, Linha);
 			
-			analizer->execute(line);
-	
-			utilLine* next = UtilLine();
-			line->next = next;
-			next->previous = line;
 			lineEnd = line;
-						
-			usingBytes += (sizeof(line) + sizeof(next));
-			
+
 			if (i == 1) {
 				lineFirst = line;
 			}
 
+			analizer->execute(line);
+			usingBytes += (sizeof(line) + sizeof(next));
 			line = next; 
 		}
 
