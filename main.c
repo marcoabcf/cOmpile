@@ -14,15 +14,7 @@ int main()
 	utilFile* file = UtilFile();
 	file->checkfile(arq);
 	file->loadlines(arq);
-	
+
+    printf("\n");
 	free_struct(file);
-//	
-//    //print
-//    _(line1)->print();
-//    _(line2)->print();
-//     
-//    //free
-//    _(line1)->free();
-//    _(line2)->free();
-	
 }

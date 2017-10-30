@@ -51,11 +51,10 @@ void loadlines(FILE *arq) {
 		i++;
 	}
 
-	printf("\n\n-----------------------------------------------------------------------------\n");
+	printf("\n--------------------------------\n");
 	printf("\nPrimeira Linha: %s", lineFirst->texto);
 	printf("\nUltima Linha: %s", lineEnd->texto);
 	printf("\n\n%d bytes", usingBytes);
-	printf("\n\n-----------------------------------------------------------------------------\n");
 	
 	free_struct(lineEnd);
 	free_struct(lineFirst);

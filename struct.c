@@ -6,10 +6,10 @@
 //a "manual destructor"
 void free_struct(obj) {
     free(obj);
-    printf(" ---- Struct successfuly freed!");
 }
- 
+
 //prints 
-void print_struct() {
+void print_struct(obj) {
+	puts(obj);
     printf("OK");
 }

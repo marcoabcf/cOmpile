@@ -14,44 +14,46 @@
  */
 void execute(struct UtilLine *line) {
 	bool isVariable;
-	int i, codeCharacter, j = 0;
-	char character, word[UCHAR_MAX];
-	
+	int i, codeCharacter, indexAuxiliaryVector = 0;
+	char character, auxiliaryVectorWord[UCHAR_MAX], wordException[3];
+
 	errors* errorClass = Errors();
 	symbolsTable* symbolsTable = SymbolsTable();
 
-	limparVetorAuxiliar(word);
+	clearAuxiliaryVector(auxiliaryVectorWord);
 	
 	for(i = 0; i < strlen(line->texto); i++) {
 		character = line->texto[i];
 		codeCharacter = (int) character;
-		
-		if (codeCharacter != 9) {
+
+	  	if (codeCharacter != 9) {
 			if ((codeCharacter != 59)) {
 				if ((codeCharacter != 10) && (codeCharacter != 32) && (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)) {
-	 				word[j] = character;
-					j++;
+	 				auxiliaryVectorWord[indexAuxiliaryVector] = character;
+					indexAuxiliaryVector++;
 				}
 			} else {
-				isVariable = symbolsTable->isVariable(word);
+				isVariable = symbolsTable->isVariable(auxiliaryVectorWord);
+
+				if (isVariable && ! symbolsTable->isVariableValid(auxiliaryVectorWord)) {
+					errorClass->print(9, line->number_line, auxiliaryVectorWord, i);
+				}
+
+				if (! isVariable && ! symbolsTable->isWordReserved(auxiliaryVectorWord)) {
+					errorClass->print(3, line->number_line, auxiliaryVectorWord, -1);
+				}
 //				printf("\n%i --> %i --> %i", isVariable, ! symbolsTable->isVariableValid(word), ! symbolsTable->isWordReserved(word));
-
-				if (isVariable && ! symbolsTable->isVariableValid(word)) {
-					errorClass->print(9, line->number_line, word);
-				}
-
-				if (! isVariable && ! symbolsTable->isWordReserved(word)) {
-					errorClass->print(3, line->number_line, word);
-				}
-
-				printf("\n");
-				limparVetorAuxiliar(word);
+//				printf("\n");
+				clearAuxiliaryVector(auxiliaryVectorWord);
 			}
 		}
 	}
 }
 
-void limparVetorAuxiliar(char array[]) {
+/**
+ *
+ */
+void clearAuxiliaryVector(char array[]) {
 	int i;
 
 	for(i = 0; i < UCHAR_MAX; i++) {

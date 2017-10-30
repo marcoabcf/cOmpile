@@ -7,52 +7,66 @@
 #include "struct.h"
 #include "errors.h"
 
-void print(int type, int numberLine, char *word) {
+void print(int type, int numberLine, char *word, int indexCharacter) {
     setlocale(LC_ALL, "Portuguese");
 	printf("Erro na linha %i: ", numberLine);
-	puts(word);
 	switch(type) {
-		case 1: 
+		case 1:
+			puts(word);
 			printf("Falta o fechamento da chave!\n"); 
 			break;
-		case 2: 
+		case 2:
+			puts(word);
 			printf("Falta o ponto e vírgula para finalizar a linha!\n"); 
 			break;
-		case 3: 
-			printf("A palavra %s é inválida!\n", word); 
+		case 3:
+			puts(word);
+			printf("A palavra é indefinida!\n");
 			break;
-		case 4: 
-			printf("O caractere '%s' é inválido!\n", word); 
+		case 4:
+			puts(word);
+			printf("O caractere é inválido!\n");
 			break;
-		case 5: 
+		case 5:
+			puts(word);
 			printf("Falta o fechamento de parêntese!\n"); 
 			break;
-		case 6: 
+		case 6:
+			puts(word);
 			printf("Falta a abertura de parêntese!\n"); 
 			break;
-		case 7: 
-			printf("A variável %s é inválida!\n", word); 
+		case 7:
+			puts(word);
+			printf("A variável é inválida!\n");
 			break;
-		case 8: 
-			printf("A variável %s já foi declarada!\n", word); 
+		case 8:
+			puts(word);
+			printf("A variável já foi declarada!\n");
 			break;
-		case 9: 
-			printf("A declaração da variável está incorreta!\n"); 
+		case 9:
+			puts(word);
+			printf("\t\t  -\n\n");
+			printf("A declaração da variável está incorreta!\n");
 			break;
-		case 10: 
+		case 10:
+			puts(word);
 			printf("Falta uma vírgula!\n"); 
 			break;
-		case 11: 
-			printf("O tamanho da variável %s esta incorreto!\n", word); 
+		case 11:
+			puts(word);
+			printf("O tamanho da variável está incorreto!\n");
 			break;
-		case 12: 
-			printf("A variável %s não foi declarada!\n", word); 
+		case 12:
+			puts(word);
+			printf("A variável não foi declarada!\n");
 			break;
-		case 13: 
-			printf("A operação %s é inválida!\n", word); 
+		case 13:
+			puts(word);
+			printf("A operação é inválida!\n");
 			break;
-		case 14: 
-			printf("A estrutura IF está incorreta!\n", numberLine); 
+		case 14:
+			puts(word);
+			printf("A estrutura IF está incorreta!\n");
 			break;
 	}
 	exit(1);

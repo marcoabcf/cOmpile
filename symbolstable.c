@@ -7,15 +7,15 @@
 #include "symbolstable.h"
 
 static char palavrasReservadas[TOTAL_RESERVADAS][10] = {
-	"se", 
-	"fim", 
-	"real", 
-	"leia", 
-	"para", 
-	"senao", 
-	"inteiro", 
-	"escreva", 
-	"programa", 
+	"se",
+	"fim",
+	"real",
+	"leia",
+	"para",
+	"senao",
+	"inteiro",
+	"escreva",
+	"programa",
 	"caractere"
 };
 
