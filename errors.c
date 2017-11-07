@@ -45,7 +45,7 @@ void print(int type, int numberLine, char *word, int indexCharacter) {
 			break;
 		case 9:
 			puts(word);
-			printf("\t\t  -\n\n");
+			printf("\t\t  ^^\n\n");
 			printf("A declaração da variável está incorreta!\n");
 			break;
 		case 10:

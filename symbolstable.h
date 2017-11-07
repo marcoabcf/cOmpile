@@ -6,6 +6,7 @@
 
 typedef struct SymbolsTable {
     bool (*isVariable)(char *word);
+    bool (*isTypeVariable)(char *word);
     bool (*isWordReserved)(char *word);
     bool (*isVariableValid)(char *word);
 } symbolsTable;

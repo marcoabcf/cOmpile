@@ -38,6 +38,24 @@ bool isWordReserved(char *word) {
 }
 
 /**
+ * Return Symbols Table.
+ */
+bool isTypeVariable(char *word) {
+	int i;
+	bool isTypeVariable = false;
+
+	for(i = 0; i < TOTAL_RESERVADAS; i++) {
+
+		if (strcmp(word, palavrasReservadas[i]) == 0) {
+			isTypeVariable = true;
+			break;
+		}
+	}
+	
+	return isTypeVariable;
+}
+
+/**
  * Check if if variable.
  */
 bool isVariable(char *word) {
@@ -59,6 +77,7 @@ symbolsTable* SymbolsTable()
     symbolsTable* new = (symbolsTable*)malloc(sizeof(symbolsTable));
 
     new->isVariable = isVariable;
+    new->isTypeVariable = isTypeVariable;
     new->isWordReserved = isWordReserved;
     new->isVariableValid = isVariableValid;
     return new;
