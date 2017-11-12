@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=3
 CompilerSettings=0000000100000000001000000
-UnitCount=15
+UnitCount=17
 
 [VersionInfo]
 Major=1
@@ -192,6 +192,26 @@ BuildCmd=
 
 [Unit15]
 FileName=validation.h
+CompileCpp=0
+Folder=structs
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit16]
+FileName=memorymonitor.c
+CompileCpp=0
+Folder=structs
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=memorymonitor.h
 CompileCpp=0
 Folder=structs
 Compile=1
