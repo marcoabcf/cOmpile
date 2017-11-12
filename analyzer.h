@@ -2,8 +2,8 @@
 #define _LEXICAL_ANALIZER_H_
 
 typedef struct Analizer {
-	void (*showTable)();
-	void (*execute)(struct UtilLine *line);
+	void (*showTable)(struct SymbolsTable *);
+	void (*execute)(struct SymbolsTable *symbolsTable, struct UtilLine *line);
 } analizer;
 
 analizer* Analizer();

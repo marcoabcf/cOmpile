@@ -6,6 +6,8 @@
 #include "utilline.h"
 #include "utilfile.h"
 #include "analyzer.h"
+#include "symbolstable.h"
+#include "memorymonitor.h"
 
 void checkfile(FILE *arq) {
 
@@ -24,7 +26,10 @@ void loadlines(FILE *arq) {
 	utilLine* line = UtilLine();
 	analizer* analizer = Analizer();
 
-	int usingBytes = sizeof(analizer) + sizeof(line) + sizeof(Linha);
+	monitor* monitor = MemoryMonitor();
+	symbolsTable* symbolsTable = SymbolsTable();
+	
+	monitor->sum = sizeof(monitor) + sizeof(analizer) + sizeof(symbolsTable) + sizeof(line) + sizeof(Linha);
 
 	while (! feof(arq)) {
 		result = fgets(Linha, 100, arq);
@@ -43,19 +48,19 @@ void loadlines(FILE *arq) {
 				lineFirst = line;
 			}
 
-			analizer->execute(line);
-			usingBytes += (sizeof(line) + sizeof(next));
+			analizer->execute(symbolsTable, line);
+			monitor->sum += (sizeof(line) + sizeof(next));
 			line = next; 
 		}
 
 		i++;
 	}
-	
-	analizer->showTable();
+	analizer->showTable(symbolsTable);
 
-	printf("\nPrimeira Linha: %s", lineFirst->texto);
-	printf("\nUltima Linha: %s", lineEnd->texto);
-	printf("\n\n%d bytes", usingBytes);
+//	printf("\nPrimeira Linha: %s", lineFirst->texto);
+//	printf("\nUltima Linha: %s", lineEnd->texto);
+
+	monitor->showUsedMemory(monitor);
 	
 	free_struct(lineEnd);
 	free_struct(lineFirst);

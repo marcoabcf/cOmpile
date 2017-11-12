@@ -13,14 +13,13 @@
 /**
  * Return new instance by Lexical Analizer.
  */
-void executeAnalyzer(struct UtilLine *line) {
-	bool isVariable, isVariableValid, isTypeVariable, isWordReserved;
+void executeAnalyzer(struct SymbolsTable *symbolsTable, struct UtilLine *line) {
 	int i, codeCharacter, indexAuxiliaryVector = 0;
 	char character, auxiliaryVectorWord[UCHAR_MAX];
+	bool isVariable, isVariableValid, isTypeVariable, isWordReserved;
 
-	errors* errorClass = Errors();
 	validation* validation = Validation();
-	symbolsTable* symbolsTable = SymbolsTable();
+//	monitor->sum += sizeof(validation) + sizeof(indexAuxiliaryVector);
 
 	clearAuxiliaryVector(auxiliaryVectorWord);
 	
@@ -30,15 +29,13 @@ void executeAnalyzer(struct UtilLine *line) {
 
 	  	if (codeCharacter != 9) {
 			if (/*codeCharacter != 35 && */codeCharacter != 44 && codeCharacter != 59) {
-				if ((codeCharacter != 10) && (codeCharacter != 32) && (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)) {
+				if ((codeCharacter != 10) && (codeCharacter != 32) /*&& (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)*/) {
 	 				auxiliaryVectorWord[indexAuxiliaryVector] = character;
 					indexAuxiliaryVector++;
 				}
 			} else {
-				validation->execute(auxiliaryVectorWord, line);
-				symbolsTable->setVariableInTable(auxiliaryVectorWord);
+				validation->execute(auxiliaryVectorWord, symbolsTable, line);
 				
-//				printf("\n");
 				indexAuxiliaryVector = 0;
 				clearAuxiliaryVector(auxiliaryVectorWord);
 			}
@@ -60,9 +57,8 @@ void clearAuxiliaryVector(char array[]) {
 /**
  *
  */
-void showTable() {
-	symbolsTable* symbolsTable = SymbolsTable();
-	symbolsTable->showSymbolsTable();
+void showTable(struct SymbolsTable *symbolsTable) {
+	symbolsTable->imprime(symbolsTable);
 }
 
 /**
@@ -72,7 +68,7 @@ analizer* Analizer()
 {
     analizer* new = (analizer*)malloc(sizeof(analizer));
 
-    new->execute = executeAnalyzer;
     new->showTable = showTable;
+    new->execute = executeAnalyzer;
     return new;
 }
