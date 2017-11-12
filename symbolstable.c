@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <locale.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
@@ -6,67 +7,26 @@
 #include "struct.h"
 #include "symbolstable.h"
 
-static char palavrasReservadas[TOTAL_RESERVADAS][10] = {
-	"se",
-	"fim",
-	"real",
-	"leia",
-	"para",
-	"senao",
-	"inteiro",
-	"escreva",
-	"programa",
-	"caractere"
-};
+void setVariableInTable(char *word) {
+	int i, characterWord;
+	puts(word);
+	for(i = 0; i < strlen(word); i++) {
+		characterWord = (int) word[i];
 
-/**
- * Return Symbols Table.
- */
-bool isWordReserved(char *word) {
-	int i;
-	bool isWordReserved = false;
-
-	for(i = 0; i < TOTAL_RESERVADAS; i++) {
-
-		if (strcasecmp(word, palavrasReservadas[i]) == 0) {
-			isWordReserved = true;
-			break;
-		}
+//		if (/*(beforeCharacterWord == 91) || (beforeCharacterWord == 93)*/) {
+//			errorClass->print(9, line->number_line, word);
+//		}
 	}
-	
-	return isWordReserved;
 }
 
-/**
- * Return Symbols Table.
- */
-bool isTypeVariable(char *word) {
-	int i;
-	bool isTypeVariable = false;
-
-	for(i = 0; i < TOTAL_RESERVADAS; i++) {
-
-		if (strcmp(word, palavrasReservadas[i]) == 0) {
-			isTypeVariable = true;
-			break;
-		}
-	}
-	
-	return isTypeVariable;
-}
-
-/**
- * Check if if variable.
- */
-bool isVariable(char *word) {
-	return ((int) word[0] == 35);
-}
-
-/**
- * Check if variable is valid.
- */
-bool isVariableValid(char *word) {
-	return ! ((int) word[1] >= 48 && (int) word[1] <= 57);
+void showSymbolsTable() {
+	printf("{-------------------------------------------------------------------}\n");
+	printf("{    \t\t\t TABELA DE SÍMBOLOS \t\t\t    }\n");
+	printf("{-------------------------------------------------------------------}\n");
+	printf("{\t TIPO | \t NOME | \t VALOR | \t TAMANHO    }\n");
+	printf("{-------------------------------------------------------------------}\n");
+	printf("{\t %s | \t %s | \t %s | \t %s    }\n");
+	printf("{-------------------------------------------------------------------}\n");
 }
 
 /**
@@ -74,11 +34,10 @@ bool isVariableValid(char *word) {
  */
 symbolsTable* SymbolsTable()
 {
-    symbolsTable* new = (symbolsTable*)malloc(sizeof(symbolsTable));
+    setlocale(LC_ALL, "Portuguese");
+    symbolsTable* new = (symbolsTable*) malloc(sizeof(symbolsTable));
 
-    new->isVariable = isVariable;
-    new->isTypeVariable = isTypeVariable;
-    new->isWordReserved = isWordReserved;
-    new->isVariableValid = isVariableValid;
+    new->showSymbolsTable = showSymbolsTable;
+    new->setVariableInTable = setVariableInTable;
     return new;
 }

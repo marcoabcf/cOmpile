@@ -7,7 +7,7 @@
 #include "struct.h"
 #include "errors.h"
 
-void print(int type, int numberLine, char *word, int indexCharacter) {
+void print(int type, int numberLine, char *word) {
     setlocale(LC_ALL, "Portuguese");
 	printf("Erro na linha %i: ", numberLine);
 	switch(type) {

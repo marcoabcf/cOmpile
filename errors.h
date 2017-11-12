@@ -2,7 +2,7 @@
 #define _ERRORS_H_
 
 typedef struct Errors {
-    void (*print)(int type, int numberLine, char *word, int indexCharacter);
+    void (*print)(int type, int numberLine, char *word);
 } errors;
 
 errors* Errors();

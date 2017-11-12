@@ -7,17 +7,19 @@
 #include "struct.h"
 #include "analyzer.h"
 #include "utilline.h"
+#include "validation.h"
 #include "symbolstable.h"
 
 /**
  * Return new instance by Lexical Analizer.
  */
-void execute(struct UtilLine *line) {
+void executeAnalyzer(struct UtilLine *line) {
 	bool isVariable, isVariableValid, isTypeVariable, isWordReserved;
 	int i, codeCharacter, indexAuxiliaryVector = 0;
-	char character, auxiliaryVectorWord[UCHAR_MAX], wordException[3];
+	char character, auxiliaryVectorWord[UCHAR_MAX];
 
 	errors* errorClass = Errors();
+	validation* validation = Validation();
 	symbolsTable* symbolsTable = SymbolsTable();
 
 	clearAuxiliaryVector(auxiliaryVectorWord);
@@ -27,28 +29,14 @@ void execute(struct UtilLine *line) {
 		codeCharacter = (int) character;
 
 	  	if (codeCharacter != 9) {
-			if (codeCharacter != 35 && codeCharacter != 44 && codeCharacter != 59) {
-				if ((codeCharacter != 32) && (codeCharacter != 10) && (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)) {
+			if (/*codeCharacter != 35 && */codeCharacter != 44 && codeCharacter != 59) {
+				if ((codeCharacter != 10) && (codeCharacter != 32) && (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)) {
 	 				auxiliaryVectorWord[indexAuxiliaryVector] = character;
 					indexAuxiliaryVector++;
 				}
 			} else {
-//	  		printf("\n%i - %c", codeCharacter, character);
-				puts(auxiliaryVectorWord);
-				isVariable = symbolsTable->isVariable(auxiliaryVectorWord);
-				isTypeVariable = symbolsTable->isTypeVariable(auxiliaryVectorWord);
-				isWordReserved = symbolsTable->isWordReserved(auxiliaryVectorWord);
-				isVariableValid = symbolsTable->isVariableValid(auxiliaryVectorWord);
-				
-				printf("%i\n", isTypeVariable);
-
-				if (isVariable && ! isVariableValid) {
-					errorClass->print(9, line->number_line, auxiliaryVectorWord, i);
-				}
-
-				if (! isVariable && ! isTypeVariable && ! isWordReserved) {
-					errorClass->print(3, line->number_line, auxiliaryVectorWord, -1);
-				}
+				validation->execute(auxiliaryVectorWord, line);
+				symbolsTable->setVariableInTable(auxiliaryVectorWord);
 				
 //				printf("\n");
 				indexAuxiliaryVector = 0;
@@ -70,12 +58,21 @@ void clearAuxiliaryVector(char array[]) {
 }
 
 /**
+ *
+ */
+void showTable() {
+	symbolsTable* symbolsTable = SymbolsTable();
+	symbolsTable->showSymbolsTable();
+}
+
+/**
  * Return new instance by Lexical Analizer.
  */
 analizer* Analizer()
 {
     analizer* new = (analizer*)malloc(sizeof(analizer));
 
-    new->execute = execute;
+    new->execute = executeAnalyzer;
+    new->showTable = showTable;
     return new;
 }

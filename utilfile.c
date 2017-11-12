@@ -50,8 +50,9 @@ void loadlines(FILE *arq) {
 
 		i++;
 	}
+	
+	analizer->showTable();
 
-	printf("\n--------------------------------\n");
 	printf("\nPrimeira Linha: %s", lineFirst->texto);
 	printf("\nUltima Linha: %s", lineEnd->texto);
 	printf("\n\n%d bytes", usingBytes);
