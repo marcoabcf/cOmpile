@@ -11,46 +11,146 @@
 #include "symbolstable.h"
 
 /**
+ * Return Symbols Table.
+ */
+char *getSizeVariable(struct UtilLine *line, char *word, char *type) {
+	int i, codeVariable, j = -1, k = 0,  indexAuxiliaryVector = 0;
+	char size[UCHAR_MAX];
+	
+	errors* errorClass = Errors();
+	
+	clearAuxiliaryVector(size);
+	
+	if (strcmp(type, "inteiro") != 0 && strcmp(word, "real") != 0 && strcmp(word, "caractere") != 0 && strcmp(word, "programa") != 0 && strcmp(word, "fim") != 0 ) {
+		for (i = strlen(word); i > 0; i--) {
+			codeVariable = (int) word[i];
+
+			if (codeVariable != 0) {
+				
+				if (j == 0 && codeVariable == 91 || j == 1 && codeVariable == 93) {
+					errorClass->print(9, line->number_line, word);
+				}
+
+				if (codeVariable == 91) {
+					j = 0;
+				} else if (codeVariable == 93) {
+					j = 1;
+				}
+				
+				if (j > 0 && codeVariable != 91 && codeVariable != 93) {
+					if (strcmp(type, "real") == 0) {
+						
+						if (codeVariable >= 48 && codeVariable <= 57 || codeVariable == 46) {
+							
+							if (codeVariable == 46) {
+								k++;
+							}
+
+							size[indexAuxiliaryVector] = word[i];
+							indexAuxiliaryVector++;
+						}
+						
+					} else if(strcmp(type, "caractere") == 0) {
+						
+						if (codeVariable >= 48 && codeVariable <= 57) {
+							size[indexAuxiliaryVector] = word[i];
+							indexAuxiliaryVector++;
+						}
+					}
+
+					if ((codeVariable < 48 || codeVariable > 57) && codeVariable != 46) {
+						errorClass->print(11, line->number_line, word);
+					}
+				}
+			}
+		}
+		
+		if (j < 0 || strlen(size) <= 0 || ((k == 0 || k > 1) && strcmp(type, "real") == 0)) {
+			errorClass->print(11, line->number_line, word);
+		}
+	}
+	
+	return getInvertedVector(size);
+}
+
+/**
  * Return new instance by Lexical Analizer.
  */
-void executeAnalyzer(struct SymbolsTable *symbolsTable, struct UtilLine *line) {
-	int i, codeCharacter, indexAuxiliaryVector = 0;
-	char character, auxiliaryVectorWord[UCHAR_MAX];
+void executeAnalyzer(struct SymbolsTable *symbolsTable, struct UtilLine *line, int isPrograma) {
+	int i, codeCharacter, sizeText, indexAuxiliaryVector = 0;
+	char character, auxiliaryVectorWord[UCHAR_MAX], type[UCHAR_MAX], name[UCHAR_MAX], size[UCHAR_MAX];
 	bool isVariable, isVariableValid, isTypeVariable, isWordReserved;
 
 	validation* validation = Validation();
+	errors* errorClass = Errors();
 //	monitor->sum += sizeof(validation) + sizeof(indexAuxiliaryVector);
 
+	clearAuxiliaryVector(name);
+	clearAuxiliaryVector(size);
+	clearAuxiliaryVector(type);
 	clearAuxiliaryVector(auxiliaryVectorWord);
 	
-	for(i = 0; i < strlen(line->texto); i++) {
+	sizeText = strlen(line->texto);
+	
+	for(i = 0; i <= sizeText; i++) {
 		character = line->texto[i];
 		codeCharacter = (int) character;
 
 	  	if (codeCharacter != 9) {
-			if (/*codeCharacter != 35 && */codeCharacter != 44 && codeCharacter != 59) {
-				if ((codeCharacter != 10) && (codeCharacter != 32) /*&& (codeCharacter != 40) && (codeCharacter != 41) && (codeCharacter != 123) && (codeCharacter != 125)*/) {
+
+			if (codeCharacter != 35 && codeCharacter != 44 && codeCharacter != 32 && codeCharacter != 10 && codeCharacter != 0 && codeCharacter != 59) {
+ 				auxiliaryVectorWord[indexAuxiliaryVector] = character;
+				indexAuxiliaryVector++;
+			} else {
+				if (strlen(auxiliaryVectorWord) > 0) {
+					if (! symbolsTable->isProgram) {
+						if (strcmp(auxiliaryVectorWord, "programa") == 0) {
+							symbolsTable->isProgram = true;
+						} else {
+							errorClass->print(16, line->number_line, auxiliaryVectorWord);
+						}
+					}
+
+					validation = validation->execute(auxiliaryVectorWord, validation, line, type);
+					
+					if (validation->isWordReserved) {
+						if (strcmp(auxiliaryVectorWord, "programa") != 0 && strcmp(auxiliaryVectorWord, "fim") != 0 && strcmp(auxiliaryVectorWord, "real") != 0 && strcmp(auxiliaryVectorWord, "inteiro") != 0 && strcmp(auxiliaryVectorWord, "caractere") != 0) {
+							errorClass->print(15, line->number_line, auxiliaryVectorWord);
+						}
+
+						strcpy(type, auxiliaryVectorWord);
+					} else {
+						strcpy(name, auxiliaryVectorWord);
+					}
+					
+					if (strlen(type) > 0) {
+						strcpy(size, getSizeVariable(line, auxiliaryVectorWord, type));
+						
+					} else if (strlen(type) == 0) {
+						errorClass->print(9, line->number_line, auxiliaryVectorWord);
+					}
+
+					symbolsTable = symbolsTable->insert(symbolsTable, name, type, size);
+				}
+				
+				if (strcmp(auxiliaryVectorWord, "fim") == 0 && ! symbolsTable->isEndProgram) {
+					if (strcmp(auxiliaryVectorWord, "fim") == 0) {
+						symbolsTable->isEndProgram = true;
+					} else {
+						errorClass->print(17, line->number_line, auxiliaryVectorWord);
+					}
+				}
+				
+				indexAuxiliaryVector = 0;
+				clearAuxiliaryVector(size);
+				clearAuxiliaryVector(auxiliaryVectorWord);
+
+				if ((codeCharacter == 35)) {
 	 				auxiliaryVectorWord[indexAuxiliaryVector] = character;
 					indexAuxiliaryVector++;
 				}
-			} else {
-				validation->execute(auxiliaryVectorWord, symbolsTable, line);
-				
-				indexAuxiliaryVector = 0;
-				clearAuxiliaryVector(auxiliaryVectorWord);
 			}
 		}
-	}
-}
-
-/**
- *
- */
-void clearAuxiliaryVector(char array[]) {
-	int i;
-
-	for(i = 0; i < UCHAR_MAX; i++) {
-		array[i] = '\0';
 	}
 }
 

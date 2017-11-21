@@ -36,75 +36,65 @@ bool isVariable(char *word) {
 /**
  * Return Symbols Table.
  */
-void isWordReserved(char *word, bool isVariableAuthentic, struct UtilLine *line) {
+bool isWordReserved(char *word, struct UtilLine *line) {
 	int i;
 	bool isWordReserved = false;
 	
 	for(i = 0; i < TOTAL_RESERVADAS; i++) {
 		
-		if (strcasecmp(word, reservedWords[i]) == 0) {
+		if (strcmp(word, reservedWords[i]) == 0) {
 			isWordReserved = true;
 			break;
 		}
 	}
 	
-	if (! isVariableAuthentic && ! isWordReserved) {
-		errorClass->print(3, line->number_line, word);
-	}
+	return isWordReserved;
 }
 
 /**
  * Check if variable is valid.
  */
-void isVariableValid(char *word, bool isVariableAuthentic, struct SymbolsTable *symbolsTable, struct UtilLine *line) {
-	char auxiliaryVectorWord[UCHAR_MAX];
-	int i, characterWord, indexAuxiliaryVector = 0, firstCharacterVariable = (int) word[1];
+bool isVariableValid(char *word, struct UtilLine *line, char *type) {
+	int i, characterWord, firstCharacterVariable = (int) word[1];
 	bool variableValid = (firstCharacterVariable >= 97 && firstCharacterVariable <= 122);
 	
-	clearAuxiliaryVector2(auxiliaryVectorWord);
-//	clearAuxiliaryVector2(symbolsTableClass->tipo);
-
 	if (variableValid) {
-
-		for(i = 1; i < (strlen(word)); i++) {
+		for(i = 0; i < (strlen(word)); i++) {
 			characterWord = (int) word[i];
-
-			if ((((characterWord == 91) || (characterWord == 93) || (characterWord >= 97 && characterWord <= 122) || (characterWord >= 65 && characterWord <= 90) || (characterWord >= 48 && characterWord <= 57)))) {
-				auxiliaryVectorWord[indexAuxiliaryVector] =	characterWord;
-				indexAuxiliaryVector++;
-			} else {
-				errorClass->print(9, line->number_line, word);
+			if ((characterWord != 35)) {
+				if ((characterWord != 91) && (characterWord != 93) && (characterWord < 97 || characterWord > 122) && (characterWord < 65 || characterWord > 90) && (characterWord < 48 || characterWord > 57) && (strcmp(type, "real") != 0 && characterWord == 46)) {
+					variableValid = false;
+					break;
+				}
 			}
 		}
-		
-		symbolsTable = symbolsTable->insere_fim(symbolsTable, auxiliaryVectorWord);
-		
-		clearAuxiliaryVector2(auxiliaryVectorWord);
-//		clearAuxiliaryVector2(symbolsTableClass->tipo);
-	} else {
-		errorClass->print(9, line->number_line, word);
 	}
+
+	return variableValid;
 }
 
-void executeValidation(char *auxiliaryVectorWord, struct SymbolsTable *symbolsTable, struct UtilLine *line) {
+validation* executeValidation(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line, char *type) {
+	bool wordReserved, variableValid, isVariableAuthentic;
+
 	errorClass = Errors();
-	symbolsTableClass = symbolsTable;
 	
-	bool isVariableAuthentic = isVariable(auxiliaryVectorWord);
-
-	isVariableValid(auxiliaryVectorWord, isVariableAuthentic, symbolsTable, line);
-	isWordReserved(auxiliaryVectorWord, isVariableAuthentic, line);
-}
-
-/**
- *
- */
-void clearAuxiliaryVector2(char array[]) {
-	int i;
-
-	for(i = 0; i < UCHAR_MAX; i++) {
-		array[i] = '\0';
+	isVariableAuthentic = isVariable(auxiliaryVectorWord);
+	variableValid = isVariableValid(auxiliaryVectorWord, line, type);
+	
+	if (isVariableAuthentic && ! variableValid) {
+		errorClass->print(9, line->number_line, auxiliaryVectorWord);
 	}
+	
+	wordReserved = isWordReserved(auxiliaryVectorWord, line);
+	
+	if (! isVariableAuthentic && ! wordReserved) {
+		errorClass->print(3, line->number_line, auxiliaryVectorWord);
+	}
+	
+	validation->isWordReserved = wordReserved;
+	validation->isVariableValid = variableValid;
+	validation->isVariableAuthentic = isVariableAuthentic;
+	return validation;
 }
 
 /**

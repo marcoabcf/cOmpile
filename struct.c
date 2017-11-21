@@ -1,16 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 
 #include "struct.h"
-#include "memorymonitor.h"
 
-//a "manual destructor"
-void free_struct(obj) {
-    free(obj);
+/**
+ *
+ */
+void clearAuxiliaryVector(char array[]) {
+	int i;
+
+	for(i = 0; i < UCHAR_MAX; i++) {
+		array[i] = '\0';
+	}
 }
 
-//prints 
-void print_struct(obj) {
-	puts(obj);
-    printf("OK");
+
+/**
+ * Return Symbols Table.
+ */
+char getInvertedVector(char *word) {
+	int i, indexAuxiliaryVector = 0;
+	char size[UCHAR_MAX];
+	
+	clearAuxiliaryVector(size);
+	
+	for (i = strlen(word) - 1; i >= 0; i--) {
+		size[indexAuxiliaryVector] = word[i];
+		indexAuxiliaryVector++;
+	}
+
+	return size;
 }

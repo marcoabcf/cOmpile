@@ -2,8 +2,8 @@
 #define _STRUCT_H_
 
 typedef struct StructClass {    
-    void (*free)();
-    void (*print)();
+    char (*getInvertedVector)(char *word);
+    void (*clearAuxiliaryVector)(char array[]);
 } StructClass;
 
 #endif

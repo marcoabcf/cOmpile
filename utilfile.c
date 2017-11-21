@@ -21,6 +21,8 @@ void loadlines(FILE *arq) {
 	int i = 1;
 	char *result;
 	char Linha[100];
+	int const isPrograma = 0;
+
 	utilLine* lineEnd;
 	utilLine* lineFirst;
 	utilLine* line = UtilLine();
@@ -48,7 +50,7 @@ void loadlines(FILE *arq) {
 				lineFirst = line;
 			}
 
-			analizer->execute(symbolsTable, line);
+			analizer->execute(symbolsTable, line, isPrograma);
 			monitor->sum += (sizeof(line) + sizeof(next));
 			line = next; 
 		}
@@ -61,11 +63,6 @@ void loadlines(FILE *arq) {
 //	printf("\nUltima Linha: %s", lineEnd->texto);
 
 	monitor->showUsedMemory(monitor);
-	
-	free_struct(lineEnd);
-	free_struct(lineFirst);
-	free_struct(line);
-	
 	fclose(arq);
 }
  

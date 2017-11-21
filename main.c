@@ -16,5 +16,4 @@ int main()
 	file->loadlines(arq);
 
     printf("\n");
-	free_struct(file);
 }

@@ -16,12 +16,14 @@ void imprime(struct SymbolsTable* l) {
 		printf("[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~] \n");
 		printf("[ \t\t\t\t TABELA DE SÍMBOLOS \t\t\t  ]\n");
 		printf("[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~] \n");
-		printf("[ \t TIPO \t | \t NOME      \t | \t VALOR \t  |    TAMANHO \t  ] \n");
-		printf("[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~] \n");
 
 		while(aux != NULL) {
-			if (strlen(aux->nome) > 0) {
-				printf("[ \t %s \t | \t %s  \t | \t %s  \t  | \t %s  \t  ] \n", &aux, aux->nome, aux->valor, aux->tamanho);
+			if (strlen(aux->name) > 0) {
+				printf("[\ttype: %s", aux->type);
+				printf("\tname: %s", aux->name);
+				printf("\tvalor: %s", aux->value);
+				printf("\ttamanho: %s", aux->size);
+				printf(" \t  ]\n");
 			}
 			aux = aux->prox;
 		}
@@ -31,43 +33,53 @@ void imprime(struct SymbolsTable* l) {
 }
 
 
-bool busca_inteligente(struct SymbolsTable* l, char *nome, bool ignora_alteracao) { // Função de busca inteligente
-	symbolsTable* aux = l; // Auxiliar que recebe o último inserido na tabela de símbolos
+bool search_symbol(struct SymbolsTable* l, char *name, bool ignore_change) {
+	symbolsTable* aux = l;
 
-	while(aux != NULL) { // Enquanto AUX for diferente de NULL  
-		if((strcmp(aux->nome, nome) == 0)) { // Verifica se o NOME da variável já existe na tabela, caso exista o valor é alterado
+	while(aux != NULL) {
+		if ((strcmp(aux->name, name) == 0)) {
 
-			if(ignora_alteracao == false) {
-				strcpy(aux->nome, nome);
+			if (ignore_change == false) {
+				strcpy(aux->name, name);
 			}
 
-			return true; // Retorna verdadeiro
-		} // Fim IF
+			return true;
+		}
 
-		aux = aux->prox; // Passa para o próximo
-	} // Fim WHILE
+		aux = aux->prox;
+	}
 	
-	return false; // Retorna false
+	return false;
 }
 
-symbolsTable* insere_fim(struct SymbolsTable* l, char *nome) {
+symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size) {
 	symbolsTable* aux = l;
 	bool validar = false;
-	symbolsTable* novo = SymbolsTable();
+	symbolsTable* newAux = SymbolsTable();
 	
-	strcpy(novo->nome, nome);
+	if (strlen(word) > 0) {
+		strcpy(newAux->name, word);
+	}
+	
+	if (strlen(size) > 0) {
+		strcpy(newAux->size, size);
+	}
 
-	if(aux == NULL) {
-		novo->prox = l; 
-		return novo; 
-	}else{
+	strcpy(newAux->type, type);
+	
+	if (aux == NULL) {
+		newAux->prox = l; 
+		return newAux;
+	} else {
 
-		validar = busca_inteligente(l, novo->nome, false);
-		if(validar == false) { // Se não houve alteração no valor
-			while(aux->prox != NULL) { aux = aux->prox; } // acontece normalmente a inserção
+		validar = search_symbol(l, newAux->name, false);
+		if (validar == false) {
+			while(aux->prox != NULL) {
+				aux = aux->prox;
+			}
 			
-			aux -> prox = novo;
-			novo->prox = NULL;
+			aux->prox = newAux;
+			newAux->prox = NULL;
 		}
 
 		return l;
@@ -82,7 +94,9 @@ symbolsTable* SymbolsTable()
     setlocale(LC_ALL, "Portuguese");
     symbolsTable* new = (symbolsTable*) malloc(sizeof(symbolsTable));
 
-    new->insere_fim = insere_fim;
+    new->insert = insert;
     new->imprime = imprime;
+    new->isProgram = false;
+    new->isEndProgram = false;
     return new;
 }

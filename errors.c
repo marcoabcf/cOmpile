@@ -68,8 +68,20 @@ void print(int type, int numberLine, char *word) {
 			puts(word);
 			printf("A estrutura IF está incorreta!\n");
 			break;
+		case 15:
+			puts(word);
+			printf("Tipo de variável não existe!\n");
+			break;
+		case 16:
+			puts(word);
+			printf("Arquivo não é um programa!\n");
+			break;
+		case 17:
+			puts(word);
+			printf("Programa não finalizado!\n");
+			break;
 	}
-	exit(1);
+	exit(type);
 }
 
 /**
