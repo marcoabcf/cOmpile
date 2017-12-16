@@ -1,10 +1,8 @@
 programa
-inteiro#tESTE,#teste,#tests;
-caractere#tEasd[5], #tes[10], #test[2],#teste2[5654];
-real #tEd[12.2], #tess[10.3], #tesat[12.1];
+
+inteiro#tESTE,#teste,#tests = 324234;
+caractere#tEasd[5], #tes[10], #test[2],#teste2[5654] = "ashjdas";
+real #tEd[12.2], #tess[10.3], #tesat[12.1] = 65654;
 
 
-
-
-
-
+	

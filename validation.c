@@ -54,7 +54,7 @@ bool isWordReserved(char *word, struct UtilLine *line) {
 /**
  * Check if variable is valid.
  */
-bool isVariableValid(char *word, struct UtilLine *line, char *type) {
+bool isVariableValid(char *word, struct UtilLine *line, char *type, char *value) {
 	int i, characterWord, firstCharacterVariable = (int) word[1];
 	bool variableValid = (firstCharacterVariable >= 97 && firstCharacterVariable <= 122);
 	
@@ -73,13 +73,13 @@ bool isVariableValid(char *word, struct UtilLine *line, char *type) {
 	return variableValid;
 }
 
-validation* executeValidation(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line, char *type) {
+validation* executeValidation(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line, bool isValueVariable, char *type, char *value) {
 	bool wordReserved, variableValid, isVariableAuthentic;
 
 	errorClass = Errors();
 	
 	isVariableAuthentic = isVariable(auxiliaryVectorWord);
-	variableValid = isVariableValid(auxiliaryVectorWord, line, type);
+	variableValid = isVariableValid(auxiliaryVectorWord, line, type, value);
 	
 	if (isVariableAuthentic && ! variableValid) {
 		errorClass->print(9, line->number_line, auxiliaryVectorWord);
@@ -87,7 +87,7 @@ validation* executeValidation(char *auxiliaryVectorWord, struct Validation *vali
 	
 	wordReserved = isWordReserved(auxiliaryVectorWord, line);
 	
-	if (! isVariableAuthentic && ! wordReserved) {
+	if (! isVariableAuthentic && ! wordReserved && ! isValueVariable) {
 		errorClass->print(3, line->number_line, auxiliaryVectorWord);
 	}
 	

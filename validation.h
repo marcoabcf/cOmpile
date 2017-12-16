@@ -6,7 +6,7 @@
 
 typedef struct Validation {
 	bool isWordReserved, isVariableValid, isVariableAuthentic;
-    struct Validation* (*execute)(char *word, struct Validation *validation, struct UtilLine *line, char *type);
+    struct Validation* (*execute)(char *word, struct Validation *validation, struct UtilLine *line, bool isValueVariable, char *type, char *value);
 } validation;
 
 validation* Validation();

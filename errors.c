@@ -9,7 +9,7 @@
 
 void print(int type, int numberLine, char *word) {
     setlocale(LC_ALL, "Portuguese");
-	printf("Erro na linha %i: ", numberLine);
+	printf("Erro %i --> Linha %i: ", type, numberLine);
 	switch(type) {
 		case 1:
 			puts(word);

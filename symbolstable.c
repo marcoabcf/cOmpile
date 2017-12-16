@@ -32,27 +32,32 @@ void imprime(struct SymbolsTable* l) {
 	}
 }
 
-
-bool search_symbol(struct SymbolsTable* l, char *name, bool ignore_change) {
+bool search(struct SymbolsTable* l, char *name, char *value, bool ignore_change) {
+	bool isValid = false;
 	symbolsTable* aux = l;
-
+	
 	while(aux != NULL) {
 		if ((strcmp(aux->name, name) == 0)) {
 
 			if (ignore_change == false) {
 				strcpy(aux->name, name);
+
+				if (strlen(value) > 0) {
+					strcpy(aux->value, value);
+				}
 			}
 
-			return true;
+			isValid = true;
+			break;
 		}
 
 		aux = aux->prox;
 	}
 	
-	return false;
+	return isValid;
 }
 
-symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size) {
+symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size, char *value) {
 	symbolsTable* aux = l;
 	bool validar = false;
 	symbolsTable* newAux = SymbolsTable();
@@ -65,14 +70,15 @@ symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size)
 		strcpy(newAux->size, size);
 	}
 
-	strcpy(newAux->type, type);
+	if (strlen(newAux->name) > 0 && strlen(value) > 0) {
+		strcpy(newAux->value, value);
+	}
 	
-	if (aux == NULL) {
-		newAux->prox = l; 
-		return newAux;
-	} else {
+	strcpy(newAux->type, type);
 
-		validar = search_symbol(l, newAux->name, false);
+	if (aux != NULL) {
+		validar = search(l, newAux->name, newAux->value, false);
+		
 		if (validar == false) {
 			while(aux->prox != NULL) {
 				aux = aux->prox;
@@ -80,9 +86,14 @@ symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size)
 			
 			aux->prox = newAux;
 			newAux->prox = NULL;
+		} else {
+			// OCORRER ERRO DE VARIAVEL JÁ DECLARADA.
 		}
-
+		
 		return l;
+	} else {
+		newAux->prox = l; 
+		return newAux;
 	}
 }
 
@@ -98,5 +109,6 @@ symbolsTable* SymbolsTable()
     new->imprime = imprime;
     new->isProgram = false;
     new->isEndProgram = false;
+    new->searchSymbol = search;
     return new;
 }

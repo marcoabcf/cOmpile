@@ -6,8 +6,8 @@
 
 typedef struct SymbolsTable {
 	void (*imprime)(struct SymbolsTable *l);
-	struct SymbolsTable* (*insert)(struct SymbolsTable *l, char *word, char *type, char *size);
-	struct SymbolsTable* (*busca_inteligente)(struct SymbolsTable *l, char *nome, bool ignora_alteracao);
+	struct SymbolsTable* (*insert)(struct SymbolsTable *l, char *word, char *type, char *size, char *value);
+	bool (*searchSymbol)(struct SymbolsTable *l, char *name, char *value, bool ignore_change);
 	char type[UCHAR_MAX], name[UCHAR_MAX], value[UCHAR_MAX], size[UCHAR_MAX];
 	bool isProgram, isEndProgram;
 	struct SymbolsTable *prox;
