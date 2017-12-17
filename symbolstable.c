@@ -4,7 +4,9 @@
 #include <string.h>
 #include <stdbool.h>
 
+#include "errors.h"
 #include "struct.h"
+#include "utilline.h"
 #include "symbolstable.h"
 
 void imprime(struct SymbolsTable* l) {
@@ -32,21 +34,21 @@ void imprime(struct SymbolsTable* l) {
 	}
 }
 
-bool search(struct SymbolsTable* l, char *name, char *value, bool ignore_change) {
+bool search(struct SymbolsTable* l, char *name, char *value, bool is_change) {
 	bool isValid = false;
 	symbolsTable* aux = l;
 	
 	while(aux != NULL) {
 		if ((strcmp(aux->name, name) == 0)) {
 
-			if (ignore_change == false) {
+			if (is_change == true) {
 				strcpy(aux->name, name);
 
 				if (strlen(value) > 0) {
 					strcpy(aux->value, value);
 				}
 			}
-
+			
 			isValid = true;
 			break;
 		}
@@ -70,14 +72,17 @@ symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size,
 		strcpy(newAux->size, size);
 	}
 
-	if (strlen(newAux->name) > 0 && strlen(value) > 0) {
+	if (strlen(value) > 0) {
 		strcpy(newAux->value, value);
 	}
-	
-	strcpy(newAux->type, type);
+
+	if (strlen(type) > 0) {
+		strcpy(newAux->type, type);
+	}
 
 	if (aux != NULL) {
-		validar = search(l, newAux->name, newAux->value, false);
+		// VERIFICAR VARIÁVEIS JÁ EXISTENTES
+		validar = search(l, newAux->name, newAux->value, true);
 		
 		if (validar == false) {
 			while(aux->prox != NULL) {
@@ -86,8 +91,6 @@ symbolsTable* insert(struct SymbolsTable* l, char *word, char *type, char *size,
 			
 			aux->prox = newAux;
 			newAux->prox = NULL;
-		} else {
-			// OCORRER ERRO DE VARIAVEL JÁ DECLARADA.
 		}
 		
 		return l;

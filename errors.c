@@ -33,7 +33,7 @@ void print(int type, int numberLine, char *word) {
 			break;
 		case 6:
 			puts(word);
-			printf("Falta a abertura de parêntese!\n"); 
+			printf("Falta abertura ou fechamento de parêntese!\n"); 
 			break;
 		case 7:
 			puts(word);
@@ -79,6 +79,18 @@ void print(int type, int numberLine, char *word) {
 		case 17:
 			puts(word);
 			printf("Programa não finalizado!\n");
+			break;
+		case 18:
+			puts(word);
+			printf("Atribuição de variável inválida!\n");
+			break;
+		case 19:
+			puts(word);
+			printf("Declarações de variáveis devem ser feitas no começo do programa!\n");
+			break;
+		case 20:
+			system("cls");
+			printf("Memória Insuficiente! O máximo de memória que deve ser utilizada é 350mb!\n");
 			break;
 	}
 	exit(type);

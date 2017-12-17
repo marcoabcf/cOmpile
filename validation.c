@@ -73,7 +73,7 @@ bool isVariableValid(char *word, struct UtilLine *line, char *type, char *value)
 	return variableValid;
 }
 
-validation* executeValidation(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line, bool isValueVariable, char *type, char *value) {
+validation* executeValidation(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line, bool isValueVariable, char *jumpNextStep, char *type, char *value) {
 	bool wordReserved, variableValid, isVariableAuthentic;
 
 	errorClass = Errors();
@@ -87,13 +87,90 @@ validation* executeValidation(char *auxiliaryVectorWord, struct Validation *vali
 	
 	wordReserved = isWordReserved(auxiliaryVectorWord, line);
 	
-	if (! isVariableAuthentic && ! wordReserved && ! isValueVariable) {
+	if (! isVariableAuthentic && ! wordReserved && ! isValueVariable && strlen(jumpNextStep) == 0) {
 		errorClass->print(3, line->number_line, auxiliaryVectorWord);
 	}
 	
 	validation->isWordReserved = wordReserved;
 	validation->isVariableValid = variableValid;
 	validation->isVariableAuthentic = isVariableAuthentic;
+	return validation;
+}
+
+validation* readWordReserved(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line) {
+	char character;
+	bool isWordReservedAuthentic = false;
+	int i, codeCharacter, countCommas = 0, countVariables = 0, countParentheses = -1, sizeText = strlen(line->texto);
+
+	for(i = 0; i < sizeText; i++) {
+		character = line->texto[i];
+		codeCharacter = (int) character;
+
+		if (codeCharacter == 40 || codeCharacter == 41) {
+			countParentheses++;
+		} else if (codeCharacter == 44) {
+			countCommas++;
+		} else if (codeCharacter == 35) {
+			countVariables++;
+		}
+	}
+	
+	if (countParentheses == 0 || countParentheses > 1) {
+		errorClass->print(6, line->number_line, line->texto);
+	} else if (countCommas != countVariables-1) {
+		errorClass->print(10, line->number_line, line->texto);
+	} else {
+		isWordReservedAuthentic = true;
+	}
+
+	validation->isWordReservedAuthentic = isWordReservedAuthentic;
+	return validation;
+}
+
+validation* writeWordReserved(char *auxiliaryVectorWord, struct Validation *validation, struct UtilLine *line) {
+	char character;
+	bool isWordReservedAuthentic = false, isQuotationMarks = false;
+	int i, codeCharacter, countCommas = 0, countQuotationMarks = 0, countVariables = 0, countParentheses = -1, sizeText = strlen(line->texto);
+
+	for(i = 0; i < sizeText; i++) {
+		character = line->texto[i];
+		codeCharacter = (int) character;
+	
+		if (codeCharacter == 34) {
+			isQuotationMarks = true;
+			if (countQuotationMarks == 1) {
+				countQuotationMarks--;
+			} else {
+				countQuotationMarks++;
+			}
+		} else if (codeCharacter == 35) {
+			countVariables++;
+		} else if (codeCharacter == 40 || codeCharacter == 41) {
+			countParentheses++;
+		} else if (codeCharacter == 44) {
+			countCommas++;
+		}
+	}
+	
+	isWordReservedAuthentic = true;
+	
+	if (countParentheses == 0 || countParentheses > 1) {
+		errorClass->print(6, line->number_line, line->texto);
+	}
+
+	if (countQuotationMarks != 0) {
+		errorClass->print(4, line->number_line, line->texto);
+	} else {
+		if (isQuotationMarks) {
+			countCommas--;
+		}
+	}
+	
+	if (countCommas != countVariables-1) {
+		errorClass->print(10, line->number_line, line->texto);
+	}
+
+	validation->isWordReservedAuthentic = isWordReservedAuthentic;
 	return validation;
 }
 
@@ -105,5 +182,7 @@ validation* Validation()
     validation* new = (validation*) malloc(sizeof(validation));
     
     new->execute = executeValidation;
+    new->readWordReserved = readWordReserved;
+    new->writeWordReserved = writeWordReserved;
     return new;
 }

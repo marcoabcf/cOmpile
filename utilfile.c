@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "errors.h"
 #include "struct.h"
 #include "utilline.h"
 #include "utilfile.h"
@@ -21,11 +22,11 @@ void loadlines(FILE *arq) {
 	int i = 1;
 	char *result;
 	char Linha[100];
-	int const isPrograma = 0;
+	int const isProgram = 0;
+	int const MAX_MEMORY_OVERFLOW = 350000;
 
-	utilLine* lineEnd;
-	utilLine* lineFirst;
 	utilLine* line = UtilLine();
+	errors* errorClass = Errors();
 	analizer* analizer = Analizer();
 
 	monitor* monitor = MemoryMonitor();
@@ -44,25 +45,35 @@ void loadlines(FILE *arq) {
 			line->number_line = i;
 			strcpy(line->texto, Linha);
 			
-			lineEnd = line;
+			analizer->execute(symbolsTable, line, isProgram);
 
-			if (i == 1) {
-				lineFirst = line;
+			monitor->sum += (sizeof(line) + sizeof(next));
+			
+			if (monitor->sum > MAX_MEMORY_OVERFLOW) {
+				errorClass->print(20, -1, NULL);
 			}
 
-			analizer->execute(symbolsTable, line, isPrograma);
-			monitor->sum += (sizeof(line) + sizeof(next));
 			line = next; 
+			free(next);
 		}
 
 		i++;
 	}
+
+	if (! symbolsTable->isEndProgram) {
+		errorClass->print(17, i, NULL);
+	}
+
 	analizer->showTable(symbolsTable);
-
-//	printf("\nPrimeira Linha: %s", lineFirst->texto);
-//	printf("\nUltima Linha: %s", lineEnd->texto);
-
 	monitor->showUsedMemory(monitor);
+	
+	free(line);
+	free(monitor);
+	free(analizer);
+	free(analizer);
+	free(analizer);
+	free(errorClass);
+	free(symbolsTable);
 	fclose(arq);
 }
  
