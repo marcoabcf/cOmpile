@@ -5,7 +5,7 @@ caractere#tEasd[5], #tes[10], #test[2],#teste2[5654] = "!ashjdas";
 real #tEd[12.2], #tess[10.3], #tesat[12.1] = 65654.3;
 
 leia(#teste2, #tes, #tesat);
-escreva(#teste2, #tesat);
+escreva(#teste2, "asdasd", #tesat);
 
 
 fim
